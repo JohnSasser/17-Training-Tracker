@@ -1,0 +1,26 @@
+{
+  "name": "17-training-tracker",
+  "version": "1.0.0",
+  "description": "mongoose app that will track your workouts to help you train for your next marathon, race or just daily exercise.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnSasser/17-Training-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnSasser/17-Training-Tracker/issues"
+  },
+  "homepage": "https://github.com/JohnSasser/17-Training-Tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7"
+  }
+}
