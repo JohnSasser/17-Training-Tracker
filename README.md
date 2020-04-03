@@ -56,6 +56,7 @@ You are required to submit the following:
 
 start with server,
 build routes to serve html,
+build the db with models,
 build routes for api calls to DB,
 use the api.js file to write routes for the api requests,
 
