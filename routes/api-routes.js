@@ -21,13 +21,22 @@ module.exports = function(app) {
 		//use our db variable to insert a new record based on whatever req.body is (req.body may be empty, but thats ok, because our model can just create an ID and a timestamp)
 		console.log(`The workout ID:`, req.params.id);
 		console.log(`the json body data getting UPDATED:`, req.body);
+		db.Workout.create(req.body)
+			.then(({ _id }) =>
+				db.User.findOneAndUpdate({}, { $push: { notes: _id } }, { new: true })
+			)
+			.then(dbUser => {
+				res.json(dbUser);
+			})
+			.catch(err => {
+				res.json(err);
+			});
 	});
 
 	// CREATE
 	app.post('/api/workouts', (req, res) => {
 		//use our db variable to insert a new record based on whatever req.body is (req.body may be empty, but thats ok, because our model can just create an ID and a timestamp)
 		console.log(`create request`, req.body);
-		db.Workout.create(req.body);
 	});
 
 	// don't know yet what the hell is range?????
