@@ -19,8 +19,8 @@ module.exports = function(app) {
 	// UPDATE
 	app.put('/api/workouts/:id', (req, res) => {
 		//use our db variable to insert a new record based on whatever req.body is (req.body may be empty, but thats ok, because our model can just create an ID and a timestamp)
-		console.log(``, req.params.id);
-		console.log(`the json body data getting UPDATED`, req.body);
+		console.log(`The workout ID:`, req.params.id);
+		console.log(`the json body data getting UPDATED:`, req.body);
 	});
 
 	// CREATE
