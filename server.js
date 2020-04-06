@@ -23,10 +23,10 @@ require('./routes/html-routes')(app);
 
 // connect to mongoose to mongo.db
 mongoose.connect(
-	process.env.MONGODB_URI || 'mongodb://localhost/workoutsdb',
+	// process.env.MONGODB_URI || 'mongodb://localhost/workoutsdb',
 	// ***** replace local host with this then,
 	// ***** push heroku origin master
-	// 'mongodb://userA1:passwordA1@ds231229.mlab.com:31229/heroku_c25mf537'
+	'mongodb://userA1:passwordA1@ds231229.mlab.com:31229/heroku_c25mf537',
 	{
 		useNewUrlParser: true,
 	}
