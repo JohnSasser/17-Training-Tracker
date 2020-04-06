@@ -2,62 +2,34 @@
 
 mongoose app that will track your workouts to help you train for your next marathon, race or just daily exercise.
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+For this development, I used a mongo for the database & mongoose to model it. We are using node for the runtime environment and express to run the router.
 
-## User Story
+<p align="center">
+  <br>
+  <a href="https://workout-tracker-222000.herokuapp.com/">TRAINING TRACKER</a> 
+  <br>
+  <img src="training-training-min.png">
+</p>
 
-- As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+# Description
 
-## Business Context
+This app will allow you to record, and track a series of workouts.
 
-A consumer will reach their fitness goals quicker when they track their workout progress.
+# Built with
 
-## Acceptance Criteria
+- JavaScript
+- MongoDB
+- Mongoose
+- Node.js
+- Express
+- HTML5
+- CSS3
 
-When the user loads the page, they should be given the option to create a new workout, or continue with their last workout.
+# Banter
 
-The user should be able to:
-
-- Add exercises to a previous workout plan.
-
-- Add new exercises to a new workout plan.
-
-- View multiple the combined weight of multiple exercises on the `stats` page.
-
-## Commit Early and Often
-
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-Follow these guidelines for committing:
-
-- Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-- Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-- Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-- Test your application before you commit to ensure functionality at every step in the development process
-
-We would like you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- The URL to the deployed application
-
-- The URL to the Github repository
-
-<!--
-
-start with server,
-build routes to serve html,
-build the db with models,
-build routes for api calls to DB,
-use the api.js file to write routes for the api requests,
-
- -->
+    -   ALGORITHM OF SUCCESS
+    while(noSuccess){
+        tryAgain();
+    if(dead)
+    break();
+    }
