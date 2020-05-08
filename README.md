@@ -1,6 +1,6 @@
 # 17-Training-Tracker
 
-mongoose app that will track your workouts to help you train for your next marathon, race or just daily exercise.
+mongoose app that will help you track your workouts & train for your next marathon, race or just daily exercise.
 
 For this development, I used a mongo for the database & mongoose to model it. We are using node for the runtime environment and express to run the router.
 
@@ -13,7 +13,8 @@ For this development, I used a mongo for the database & mongoose to model it. We
 
 # Description
 
-This app will allow you to record, and track a series of workouts.
+This app will allow you to record, and track a series of workouts.  The home screen will ask you to input your workiouts.  Enter as many as you wish at that time.  After entering some workouts, click the stats button in the nav-bar at the top of the screen and the app will present you with data-visuial metrics.  Use the metrics to find ineffeciancies in your workout program, track days off and "stay in front of the curve", so to speak.
+
 
 # Built with
 
