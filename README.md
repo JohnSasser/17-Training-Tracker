@@ -7,7 +7,7 @@ For this development, I used a mongo for the database & mongoose to model it. We
 <p align="center">
   <br>
   <a href="https://workout-tracker-222000.herokuapp.com/">TRAINING TRACKER</a> 
-  <br>
+  <br><br><br>
   <img src="training-training-min.png">
 </p>
 
